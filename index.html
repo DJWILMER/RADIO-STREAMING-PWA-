@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="DJ WILMER — La mejor música en vivo, carátulas, historial y chat. Escúchala en tu celular o PC.">
+  <meta name="theme-color" content="#0a0612">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="DJ WILMER">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>DJ WILMER · Radio en Vivo</title>
+</head>
+<body data-theme="morado">
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></symbol>
+  <symbol id="i-volume" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+  <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></symbol>
+  <symbol id="i-history" viewBox="0 0 24 24"><polyline points="16 18 16 12 10 12" transform="translate(-2 0)"/><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+  <symbol id="i-broadcast" viewBox="0 0 24 24"><circle cx="12" cy="12" r="2"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-.36.013-.72.04-1.08.08-2.695.242-4.23 1.777-4.472 4.472-.04.36-.067.72-.08 1.08-.058 1.28-.072 1.688-.072 4.947s.014 3.667.072 4.947c.013.36.04.72.08 1.08.242 2.695 1.777 4.23 4.472 4.472.36.04.72.067 1.08.08 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c.36-.013.72-.04 1.08-.08 2.695-.242 4.23-1.777 4.472-4.472.04-.36.067-.72.08-1.08.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.013-.36-.04-.72-.08-1.08-.242-2.695-1.777-4.23-4.472-4.472-.36-.04-.72-.067-1.08-.08-1.28-.058-1.688-.072-4.947-.072zm0 5.269A6.731 6.731 0 1 0 18.731 12 6.731 6.731 0 0 0 12 5.269zm0 11.1a4.369 4.369 0 1 1 4.369-4.369 4.369 4.369 0 0 1-4.369 4.369zm8.576-11.327a1.573 1.573 0 1 1-1.573-1.573 1.573 1.573 0 0 1 1.573 1.573z"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-droplet" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></symbol>
+</svg>
+
+<header class="topbar">
+  <a class="brand" href="#inicio">
+    <img class="brand-logo" src="assets/img/logo.png" alt="DJ WILMER">
+    <span class="brand-text">DJ <b>WILMER</b></span>
+  </a>
+  <div class="topbar-right">
+    <button class="btn btn-install" id="installBtn" hidden>
+      <svg class="ic"><use href="#i-download"/></svg><span>Instalar</span>
+    </button>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menú">
+      <svg class="ic"><use href="#i-menu"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <img class="brand-logo" src="assets/img/logo.png" alt="DJ WILMER">
+    <button class="icon-btn" id="drawerClose" aria-label="Cerrar menú">
+      <svg class="ic"><use href="#i-x"/></svg>
+    </button>
+  </div>
+  <nav class="drawer-nav">
+    <a class="drawer-link" href="#inicio"><svg class="ic"><use href="#i-home"/></svg> Inicio</a>
+    <a class="drawer-link" href="#now-playing"><svg class="ic"><use href="#i-broadcast"/></svg> Ahora suena</a>
+    <a class="drawer-link" href="#historial"><svg class="ic"><use href="#i-history"/></svg> Historial</a>
+    <a class="drawer-link" href="#chat"><svg class="ic"><use href="#i-chat"/></svg> Chat</a>
+    <a class="drawer-link" href="#themes"><svg class="ic"><use href="#i-droplet"/></svg> Tema de color</a>
+    <a class="drawer-link" href="#redes"><svg class="ic"><use href="#i-globe"/></svg> Redes sociales</a>
+  </nav>
+  <div class="theme-block" id="themes">
+    <p class="theme-label">Tema de color</p>
+    <div class="theme-grid" id="themeGrid"></div>
+  </div>
+  <div class="drawer-socials" id="drawerSocials"></div>
+  <button class="btn btn-install btn-block" id="installBtnDrawer" hidden>
+    <svg class="ic"><use href="#i-download"/></svg><span>Instalar aplicación</span>
+  </button>
+  <p class="drawer-foot">DJ WILMER · Música en vivo</p>
+</aside>
+
+<main>
+  <section class="wrap player-card" id="inicio">
+    <div class="disc-wrap" id="discWrap">
+      <div class="disc-glow"></div>
+      <img class="disc-art" id="coverArt" src="assets/img/logo.png" alt="Carátula">
+      <div class="disc-hole"></div>
+    </div>
+
+    <div class="player-info">
+      <div class="live-row">
+        <span class="live-badge"><span class="live-dot"></span> EN VIVO</span>
+        <span class="listeners" id="listeners">
+          <svg class="ic"><use href="#i-users"/></svg><span id="listenersNum">–</span>
+        </span>
+      </div>
+      <h1 class="track-title" id="trackTitle">Conectando...</h1>
+      <p class="track-sub" id="trackSource">DJ WILMER · Radio en vivo</p>
+
+      <div class="eq" id="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+
+      <div class="controls">
+        <button class="big-play" id="playBtn" aria-label="Reproducir">
+          <svg class="ic play-ic" id="playIcon"><use href="#i-play"/></svg>
+          <svg class="ic pause-ic" id="pauseIcon" style="display:none"><use href="#i-pause"/></svg>
+        </button>
+        <div class="volume-wrap">
+          <button class="icon-btn" id="muteBtn" aria-label="Silenciar">
+            <svg class="ic" id="volIcon"><use href="#i-volume"/></svg>
+          </button>
+          <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="0.9" aria-label="Volumen">
+        </div>
+        <button class="icon-btn share-btn" id="shareBtn" aria-label="Compartir">
+          <svg class="ic"><use href="#i-share"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap now-playing" id="now-playing">
+    <h2 class="section-title">Ahora suena</h2>
+    <div class="np-row">
+      <img class="np-art" id="npArt" src="assets/img/logo.png" alt="">
+      <div class="np-meta">
+        <span class="np-label"><svg class="ic"><use href="#i-music"/></svg> Título actual</span>
+        <b id="npTrack">Cargando...</b>
+        <small id="metaError" class="meta-error" hidden>Sin conexión a la API de metadatos</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="historial">
+    <div class="section-head">
+      <div>
+        <span class="kicker">RECIENTEMENTE</span>
+        <h2 class="section-title">Historial de canciones</h2>
+      </div>
+      <button class="btn ghost" id="historyRefresh">
+        <svg class="ic"><use href="#i-history"/></svg> Actualizar
+      </button>
+    </div>
+    <ol class="history-list" id="historyList">
+      <li class="history-loading"><span class="spin"></span> Cargando historial...</li>
+    </ol>
+  </section>
+
+  <section class="wrap chat-wrap" id="chat">
+    <div class="section-head">
+      <div>
+        <span class="kicker">CONVERSACIÓN</span>
+        <h2 class="section-title">Chat en vivo</h2>
+      </div>
+      <button class="btn ghost danger-ghost" id="chatClear" aria-label="Limpiar chat">
+        <svg class="ic"><use href="#i-trash"/></svg>
+      </button>
+    </div>
+    <div class="chat-box" id="chatBox" aria-live="polite"></div>
+    <form class="chat-form" id="chatForm" autocomplete="off">
+      <input type="text" id="chatName" class="chat-name" placeholder="Tu nombre" maxlength="100">
+      <div class="chat-input-row">
+        <input type="text" id="chatMessage" class="chat-message" placeholder="Escribe un mensaje..." maxlength="300">
+        <button type="submit" class="btn send-btn" aria-label="Enviar">
+          <svg class="ic"><use href="#i-send"/></svg>
+        </button>
+      </div>
+    </form>
+  </section>
+
+  <section class="wrap" id="redes">
+    <span class="kicker">SÍGUEME</span>
+    <h2 class="section-title">Redes sociales</h2>
+    <div class="social-grid" id="socialGrid"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <img class="footer-logo" src="assets/img/logo.png" alt="DJ WILMER">
+  <p class="footer-name">DJ WILMER · Radio en Vivo</p>
+  <p id="footerStatus" class="footer-status">Transmisión en vivo 24/7</p>
+  <div class="footer-socials" id="footerSocials"></div>
+  <p class="footer-note">Todos los derechos reservados © DJ WILMER</p>
+</footer>
+
+<audio id="audio"></audio>
+<script src="js/app.js"></script>
+</body>
+</html>
