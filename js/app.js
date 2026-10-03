@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  var STREAM_URL = "https://icecast.crispro941.cl/8006/stream";
-  var API_URL = "https://icecast.crispro941.cl/cp/get_info.php?p=8006";
+  var STREAM_URL = "https://stream.zeno.fm/zzrxpmz2mv8uv";
+  var API_URL = "https://api.zeno.fm/mounts/metadata/subscribe/zzrxpmz2mv8uv";
   var LOGO = "assets/img/logo.png";
 
   var SOCIALS = [
